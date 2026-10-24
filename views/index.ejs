@@ -11,9 +11,9 @@
   <h1>21 Savage</h1>
   <h2>Why you trappin so hard?</h2>
 
-
   <h3>Messages</h3>
   <ul class="messages">
+    <!-- the index skips a number becasue this is js and an empty string in array is still counted [0,1,'',3,'',4] -->
   <% for(var i=0; i<messages.length; i++) {%>
     <li class="message">
       <span><%= messages[i].name %></span>
@@ -27,8 +27,8 @@
   </ul>
 
   <h2>Add a message</h2>
-
-  <form action="/messages" method="POST">
+<!--post reuqest and the route in messages -->
+  <form action="/messages" method="POST"> 
     <input type="text" placeholder="name" name="name">
     <input type="text" placeholder="message" name="msg">
     <button type="submit">Submit</button>
