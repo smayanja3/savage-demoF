@@ -1,4 +1,9 @@
-![21 Savage](public/21savage.jpg)
+## 📸 Project Preview
+
+![21 Savage](public/demo.png)
+
+**Live Demo:** [[Live Site](https://savage-demof.onrender.com/)]
+
 
 ## Installation
 
